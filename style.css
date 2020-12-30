@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25.00%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50.00%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75.00%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*='col-'] {
+    float: left;
+    /* border: 1px solid red; */
+    /***************Remove Border From Here**************************/
+}
+
+.row:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.container {
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+
+.container2 {
+    height: auto;
+    width: 50%;
+    margin: auto;
+}
+
+.container3 {
+    height: auto;
+    width: 70%;
+    margin: auto;
+    padding: 0px;
+}
+
+.menu-height {
+    height: 60px;
+}
+
+.slider1-height {
+    height: 400px;
+}
+
+.content-height {
+    height: 700px;
+}
+
+.big-footer-height {
+    height: 300px;
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 480px) {
+    [class*='col-'] {
+        width: 100%;
+    }
+    .visibilityUltraSmall {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    .col-s1 {
+        width: 8.33%
+    }
+    .col-s2 {
+        width: 16.66%
+    }
+    .col-s3 {
+        width: 25%
+    }
+    .col-s4 {
+        width: 33.33%
+    }
+    .col-s5 {
+        width: 41.66%
+    }
+    .col-s6 {
+        width: 50%
+    }
+    .col-s7 {
+        width: 58.33%
+    }
+    .col-s8 {
+        width: 66.66%
+    }
+    .col-s9 {
+        width: 75%
+    }
+    .col-s10 {
+        width: 83.33%
+    }
+    .col-s11 {
+        width: 91.66%
+    }
+    .col-s12 {
+        width: 100%
+    }
+    .test {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .row {
+        position: relative;
+    }
+    .visibilityforSmall {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 780px) {
+    .col-m1 {
+        width: 8.33%
+    }
+    .col-m2 {
+        width: 16.66%
+    }
+    .col-m3 {
+        width: 25%
+    }
+    .col-m4 {
+        width: 33.33%
+    }
+    .col-m5 {
+        width: 41.66%
+    }
+    .col-m6 {
+        width: 50%
+    }
+    .col-m7 {
+        width: 58.33%
+    }
+    .col-m8 {
+        width: 66.66%
+    }
+    .col-m9 {
+        width: 75%
+    }
+    .col-m10 {
+        width: 83.33%
+    }
+    .col-m11 {
+        width: 91.66%
+    }
+    .col-m12 {
+        width: 100%
+    }
+    .test {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .row {
+        position: relative;
+    }
+    .visibilityformediuam {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .col-l1 {
+        width: 8.33%
+    }
+    .col-i2 {
+        width: 16.66%
+    }
+    .col-l3 {
+        width: 25%
+    }
+    .col-l4 {
+        width: 33.33%
+    }
+    .col-l5 {
+        width: 41.66%
+    }
+    .col-l6 {
+        width: 50%
+    }
+    .col-l7 {
+        width: 58.33%
+    }
+    .col-l8 {
+        width: 66.66%
+    }
+    .col-l9 {
+        width: 75%
+    }
+    .col-l10 {
+        width: 83.33%
+    }
+    .col-l11 {
+        width: 91.66%
+    }
+    .col-l12 {
+        width: 100%
+    }
+    .test {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .row {
+        position: relative;
+    }
+    .invisibilityforExtraLarge {
+        display: none;
+    }
+}
+
+
+/* Background Colors */
+
+.colorBlack {
+    background-color: #2a2a2b;
+}
+
+.colorGray {
+    background-color: #4c5361;
+}
+
+.HeaderFont {
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.imageResize {
+    height: 100%;
+    width: 100%;
+}
+
+.btn-Container {
+    text-decoration: none;
+    display: inline-block;
+    background-color: chocolate;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 28px;
+    transition: background 0.5s;
+}
+
+.btn-Container:hover {
+    background: #563434;
+}
+
+.btn2 {
+    height: 10px;
+    width: 100px;
+}
+
+
+/* ....................Admin Dash Bord Work Here........................... */
+
+
+/* its use for heading tag */
+
+.headingTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: chocolate;
+}
+
+
+/* nav Bar desigin */
+
+.main-ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.main-li {
+    float: left;
+    width: 20%;
+}
+
+.main-li a {
+    text-decoration: none;
+    display: block;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    border: 1px solid red;
+    padding: 40px 0px;
+    color: white;
+    transition: .9s;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Admin details Form Font size and work */
+
+.detailsFont {
+    text-align: justify;
+    font-weight: bold;
+    font-size: 30px;
+    color: chocolate;
+}
+
+
+/* profile image work will go here */
+
+.profileImageWork {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /*padding: 5px;*/
+    transition: .2s;
+}
+
+.profileImageWork:hover {
+    border: 2px solid chocolate;
+}
