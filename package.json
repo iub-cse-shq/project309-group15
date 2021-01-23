@@ -1,0 +1,19 @@
+{
+  "name": "project309-group15",
+  "version": "1.0.0",
+  "description": "Blood Bank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iub-cse-shq/project309-group15.git"
+  },
+  "author": "Md. Fazle Rabbi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iub-cse-shq/project309-group15/issues"
+  },
+  "homepage": "https://github.com/iub-cse-shq/project309-group15#readme"
+}
