@@ -26,14 +26,14 @@
         <section class="right">
             <div class="sec" id="div2">
                 <h4>Personal Information:</h4>
-                <form>
-                    <label for="fname">First Name:</label> &nbsp; &nbsp;&nbsp;
-                    <input type="text" id="fname" name="fname" size="" placeholder="Enter your first name..">
+                <form id="reg-form">
+                    <label for="fname">Name:</label> &nbsp; &nbsp;&nbsp;
+                    <input type="text" id="name" name="fname" size="" placeholder="Enter your  name..">
                     <br>
 
-                    <label for="lname">Last Name:</label> &nbsp; &nbsp;&nbsp;
+                    <!-- <label for="lname">Last Name:</label> &nbsp; &nbsp;&nbsp;
                     <input type="text" id="lname" name="lname" size="" placeholder="Enter your last name..">
-                    <br>
+                    <br> -->
 
                     <label for="uname">User Name:</label> &nbsp; &nbsp;
                     <input type="text" id="uname" name="uname" size="" placeholder="Enter user name..">
@@ -91,6 +91,16 @@
         </section>
 
     </main>
+
+    <script>
+        const form = document.getElementById('reg-form')
+        form.addEventListener('submit', registerUser)
+
+        function registerUser(event) {
+            event.preventDefault()
+            const
+        }
+    </script>
 </body>
 
 </html>
